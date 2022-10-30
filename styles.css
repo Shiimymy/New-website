@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(180.2deg, rgb(30, 33, 48) 6.8%, rgb(74, 98, 110) 131%);
+    color: white;
+    text-align: center;
+}
+
+h1,
+h2 {
+    position: relative;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+h3 {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer {
+    font-size: 20px;
+}
+
+footer a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    padding: 180px ;
+    margin: 20px 0;
+    border-radius: 30px;
+    font-weight: bold;
+    position: relative;
+}
+
+.hero::before{
+    content: "";
+    background-image: url(images/ireland.jpeg);
+    position: absolute;
+    background-size: cover;
+    opacity: 60%;
+    top: 0px ;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.btn {
+    margin: 15px 0 40px 0;
+}
+
+
