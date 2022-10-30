@@ -11,8 +11,12 @@ h2 {
 }
 
 h1 {
-    font-size: 90px;
-    margin: 70px;
+    font-size: 80px;
+    margin-top: 80px;
+}
+
+h2 {
+    margin: 40px;
 }
 
 h3 {
@@ -28,13 +32,8 @@ h4 {
     border-radius: 10px;
 }
 
-p {
-    padding: 10px;
-    margin: 30px 0;
-}
-
 footer {
-    font-size: 20px;
+    font-size: 15px;
     margin: 40px;
 }
 
@@ -72,8 +71,9 @@ img {
     margin: 15px 0 40px 0;
 }
 
-.myPicture {
-    max-width: 80%;
+.presentation-paragraph {
+    padding: 10px;
+    margin: 50px 0;
 }
 
 .certificates-section {
