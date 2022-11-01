@@ -32,6 +32,13 @@ h4 {
     border-radius: 10px;
 }
 
+h5 {
+    padding: 10px;
+    border: 1px solid white;
+    margin-bottom: 20px;
+
+}
+
 footer {
     font-size: 15px;
     margin: 40px;
@@ -83,4 +90,35 @@ img {
 .carousel {
     max-width: 70%;
     margin: 0 auto;
+}
+
+.work-tittle {
+    margin-bottom: 50px;
+
+}
+
+.cards {
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    grid-gap: 20px;    
+}
+
+.card {
+    display: flex;
+    grid-template-rows: max-content 200px 1fr;
+    background: transparent;
+    padding: 10px;
+    border: 2px solid white;
+    margin: 1px auto;
+}
+
+.card img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border: 1px white solid;
+}
+
+.card p {
+    margin: 10px;
 }
