@@ -45,9 +45,13 @@ footer {
 }
 
 footer a {
-    padding: 10px;
     color: white;
     text-decoration: none;
+}
+
+footer a:hover {
+    color: red;
+    transition: 0.5s;
 }
 
 img {
@@ -121,4 +125,51 @@ img {
 
 .card p {
     margin: 10px;
+}
+
+.contacts {
+    padding: 20px;
+}
+
+.button-main {
+    color: white;
+    font-size: 25px;
+    background: rgba(0, 0, 0, 0.184);
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px 200px;
+    margin: 0 40px;
+
+}
+
+.button-main:hover {
+    color: red;
+    background: rgba(0, 0, 0, 0.449);
+    transition: 0.5s;
+    border: 2px solid red;
+    padding: 11px 201px;
+}
+
+.ul-main {
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+.social-links {
+    margin: 5px;
+    padding: 10px;
+}
+
+.social-links a {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: red;
+    transition: 0.5s;
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 10px 20px;
 }
