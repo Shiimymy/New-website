@@ -21,7 +21,7 @@ h2 {
 
 h3 {
     padding: 20px;
-    margin-top: 20px;
+    margin: 20px 30px;
 }
 
 h4 {
@@ -44,18 +44,18 @@ footer {
     margin: 40px;
 }
 
-footer a {
-    color: white;
-    text-decoration: none;
-}
-
-footer a:hover {
-    color: red;
-    transition: 0.5s;
-}
 
 img {
     border-radius: 10px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: red;
+    transition: 0.5s;
 }
 
 .hero {
@@ -133,11 +133,11 @@ img {
 
 .button-main {
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     background: rgba(0, 0, 0, 0.184);
     border: 1px solid white;
     border-radius: 10px;
-    padding: 10px 200px;
+    padding: 8px 150px;
     margin: 0 40px;
 
 }
@@ -147,7 +147,7 @@ img {
     background: rgba(0, 0, 0, 0.449);
     transition: 0.5s;
     border: 2px solid red;
-    padding: 11px 201px;
+    padding: 9px 151px;
 }
 
 .ul-main {
