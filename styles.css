@@ -1,3 +1,7 @@
+:root {
+    --main-branding-color : rgb(98, 43, 228);
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(180.2deg, rgb(30, 33, 48) 6.8%, rgb(74, 98, 110) 131%);
@@ -54,9 +58,19 @@ a {
 }
 
 a:hover {
-    color: red;
+    color: var(--main-branding-color);
     transition: 0.5s;
 }
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link {
+    color: var(--main-branding-color);
+}
+
+.nav-link:hover {
+    color: var(--main-branding-color);
+}
+
 
 .hero {
     padding: 180px ;
@@ -143,10 +157,10 @@ a:hover {
 }
 
 .button-main:hover {
-    color: red;
+    color: var(--main-branding-color);
     background: rgba(0, 0, 0, 0.449);
     transition: 0.5s;
-    border: 2px solid red;
+    border: 2px solid var(--main-branding-color);
     padding: 9px 151px;
 }
 
@@ -167,9 +181,9 @@ a:hover {
 }
 
 .social-links a:hover {
-    color: red;
+    color: var(--main-branding-color);
     transition: 0.5s;
-    border: 1px solid red;
+    border: 1px solid var(--main-branding-color);
     border-radius: 10px;
     padding: 10px 20px;
 }
