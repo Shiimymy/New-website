@@ -43,6 +43,10 @@ h5 {
 
 }
 
+ ul {
+     padding: 0px;
+ }
+
 footer {
     font-size: 15px;
     margin: 40px;
@@ -212,10 +216,6 @@ a:hover {
 
     h5 {
         padding: 15px 2px;
-    }
-
-    ul {
-        padding: 0px;
     }
 
     .hero {
