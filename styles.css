@@ -73,9 +73,8 @@ a:hover {
 
 
 .hero {
-    padding: 180px ;
+    padding: 170px ;
     margin: 20px 0;
-    border-radius: 30px;
     font-weight: bold;
     position: relative;
 }
@@ -186,4 +185,66 @@ a:hover {
     border: 1px solid var(--main-branding-color);
     border-radius: 10px;
     padding: 10px 20px;
+}
+
+@media (max-width: 900px) {
+
+    h1 {
+        font-size: 70px;
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    h2 {
+        margin: 20px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    h4 {
+        font-size: 30px;
+        margin: 20px;
+        border: 0px solid transparent;
+        text-decoration: underline
+    }
+
+    h5 {
+        padding: 15px 2px;
+    }
+
+    ul {
+        padding: 0px;
+    }
+
+    .hero {
+        padding: 50px 0 50px 0;
+        margin-top: 0;
+    }
+    .hero::before {
+        padding: 0;
+    }
+
+    .button-main {
+        margin: auto 5px;
+        padding: 8px 75px;
+    }
+
+    .button-main:hover {
+        padding: 9px 76px;
+        }
+
+    .presentation-paragraph {
+        margin: 35px 0;
+    }    
+    .myPicture {
+        margin-top: 25px;
+    }
+    .carousel {
+        max-width: 100%;
+    }
+    .content p {
+        margin: 25px 10px;
+    }
 }
