@@ -39,6 +39,7 @@ h4 {
 h5 {
     padding: 10px;
     border: 1px solid white;
+    border-radius: 10px;
     margin-bottom: 20px;
 
 }
@@ -75,10 +76,9 @@ a:hover {
     color: var(--main-branding-color);
 }
 
-
 .hero {
     padding: 170px ;
-    margin: 20px 0;
+    margin: 50px 0;
     font-weight: bold;
     position: relative;
 }
@@ -95,8 +95,24 @@ a:hover {
     left: 0px;
 }
 
-.btn {
-    margin: 15px 0 40px 0;
+.button-main {
+    color: white;
+    font-size: 20px;
+    background: rgba(0, 0, 0, 0.351);
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 8px 150px;
+    margin: 0 40px;
+    box-shadow: 8px 5px 5px rgb(24, 23, 23);
+
+}
+
+.button-main:hover {
+    color: var(--main-branding-color);
+    background: rgba(0, 0, 0, 0.547);
+    transition: 0.5s;
+    border: 2px solid var(--main-branding-color);
+    padding: 9px 151px;
 }
 
 .presentation-paragraph {
@@ -117,7 +133,6 @@ a:hover {
     margin-bottom: 50px;
 
 }
-
 .cards {
     display: flex;
     grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
@@ -148,25 +163,6 @@ a:hover {
     padding: 20px;
 }
 
-.button-main {
-    color: white;
-    font-size: 20px;
-    background: rgba(0, 0, 0, 0.184);
-    border: 1px solid white;
-    border-radius: 10px;
-    padding: 8px 150px;
-    margin: 0 40px;
-
-}
-
-.button-main:hover {
-    color: var(--main-branding-color);
-    background: rgba(0, 0, 0, 0.449);
-    transition: 0.5s;
-    border: 2px solid var(--main-branding-color);
-    padding: 9px 151px;
-}
-
 .ul-main {
     list-style-type: none;
     margin-top: 30px;
@@ -195,12 +191,11 @@ a:hover {
 
     h1 {
         font-size: 70px;
-        margin-top: 20px;
-        padding: 10px;
+        
     }
 
     h2 {
-        margin: 20px;
+        margin: 40px;
     }
 
     h3 {
@@ -218,6 +213,10 @@ a:hover {
         padding: 15px 2px;
     }
 
+    footer {
+        margin-top: 130px;
+    }
+
     .hero {
         padding: 50px 0 50px 0;
         margin-top: 0;
@@ -227,7 +226,7 @@ a:hover {
     }
 
     .button-main {
-        margin: auto 5px;
+        margin: auto 5px 0 90px 0;
         padding: 8px 75px;
     }
 
@@ -246,5 +245,8 @@ a:hover {
     }
     .content p {
         margin: 25px 10px;
+    }
+    .social-links a:hover {
+        padding: 10px 17px;
     }
 }
