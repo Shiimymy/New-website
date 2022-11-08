@@ -15,7 +15,7 @@ h2 {
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 90px;
     margin-top: 80px;
 }
 
@@ -50,9 +50,8 @@ h5 {
 
 footer {
     font-size: 15px;
-    margin: 40px;
+    margin-top: 120px;
 }
-
 
 img {
     border-radius: 10px;
@@ -97,11 +96,11 @@ a:hover {
 
 .button-main {
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     background: rgba(0, 0, 0, 0.351);
     border: 1px solid white;
     border-radius: 10px;
-    padding: 8px 150px;
+    padding: 8px 123px;
     margin: 0 40px;
     box-shadow: 8px 5px 5px rgb(24, 23, 23);
 
@@ -113,6 +112,14 @@ a:hover {
     transition: 0.5s;
     border: 2px solid var(--main-branding-color);
     padding: 9px 151px;
+}
+
+.presentation h1 {
+    margin-top: 150px;
+}
+
+.presentation img {
+    margin-top: 100px;
 }
 
 .presentation-paragraph {
@@ -160,17 +167,22 @@ a:hover {
 }
 
 .contacts {
+    
     padding: 20px;
+}
+
+.email-button {
+    margin-top: 20px;
 }
 
 .ul-main {
     list-style-type: none;
-    margin-top: 30px;
+    margin: 50px;
 }
 
 .social-links {
-    margin: 5px;
-    padding: 10px;
+    margin: 0px;
+    padding: 15px;
 }
 
 .social-links a {
@@ -190,8 +202,7 @@ a:hover {
 @media (max-width: 900px) {
 
     h1 {
-        font-size: 70px;
-        
+        font-size: 70px;    
     }
 
     h2 {
@@ -218,8 +229,8 @@ a:hover {
     }
 
     .hero {
-        padding: 50px 0 50px 0;
-        margin-top: 0;
+        padding: 80px 0 80px 0;
+        margin-top: 10px;
     }
     .hero::before {
         padding: 0;
@@ -234,9 +245,16 @@ a:hover {
         padding: 9px 76px;
         }
 
+    .presentation h1 {
+        margin-top: 80px;
+    }   
     .presentation-paragraph {
         margin: 35px 0;
     }    
+    .presentation img {
+        margin-top: 50px;
+    }
+
     .myPicture {
         margin-top: 25px;
     }
@@ -246,6 +264,10 @@ a:hover {
     .content p {
         margin: 25px 10px;
     }
+    .social-links a {
+        font-size: 20px;
+    }
+
     .social-links a:hover {
         padding: 10px 17px;
     }
