@@ -177,7 +177,7 @@ a:hover {
 
 .ul-main {
     list-style-type: none;
-    margin: 50px;
+    margin: 50px 0;
 }
 
 .social-links {
@@ -187,7 +187,7 @@ a:hover {
 
 .social-links a {
     color: white;
-    font-size: 25px;
+    font-size: 35px;
     text-decoration: none;
 }
 
@@ -265,7 +265,7 @@ a:hover {
         margin: 25px 10px;
     }
     .social-links a {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .social-links a:hover {
