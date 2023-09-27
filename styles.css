@@ -178,6 +178,10 @@ img {
 
 /* ---------------------- Work Page*/
 
+#work-tittle {
+    margin-top: 15%;
+}
+
 .card {
     background-color: transparent;
     padding: 0.5em;
