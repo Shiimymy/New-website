@@ -178,30 +178,29 @@ img {
 
 /* ---------------------- Work Page*/
 
-.cards {
-    display: flex;
-    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-    grid-gap: 20px;    
-}
-
 .card {
-    display: flex;
-    grid-template-rows: max-content 200px 1fr;
-    background: transparent;
-    padding: 10px;
-    border: 2px solid white;
-    margin: 1px auto;
+    background-color: transparent;
+    padding: 0.5em;
+    border: 1px solid var(--main-text-color);
 }
 
-.card img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    border: 1px white solid;
+.btn-secondary {
+
+    color: var(--main-text-color);
+    font-size: 13px;
+    background: rgba(0, 0, 0, 0.351);
+    border: 1px solid var(--main-text-color);
+    border-radius: 5px;
+    padding: 8px 50px;
+    margin: 0 40px;
+    box-shadow: 8px 5px 5px rgb(24, 23, 23);
 }
 
-.card p {
-    margin: 10px;
+.btn-secondary:hover {
+    color: var(--main-branding-color);
+    background: rgba(0, 0, 0, 0.547);
+    transition: 0.5s;
+    border-color: var(--main-branding-color);
 }
 
 /* ---------------------- Contact Page*/
