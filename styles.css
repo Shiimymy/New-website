@@ -1,26 +1,51 @@
+/* ---------------------- All pages*/
+
 :root {
     --main-branding-color : rgb(98, 43, 228);
+    --main-text-color: rgb(229, 221, 221);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: var(--main-text-color);
+    font-family: Arial, Helvetica, sans-serif; 
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(180.2deg, rgb(30, 33, 48) 6.8%, rgb(74, 98, 110) 131%);
-    color: white;
     text-align: center;
 }
 
-h1,
-h2 {
-    position: relative;
+a {
+    color: var(--main-text-color);
 }
+
+a:hover {
+    color: var(--main-branding-color);
+    transition: 0.5s;
+}
+
+/* ---------------------- Navigation bar*/
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link {
+    color: var(--main-branding-color);
+}
+
+.nav-link:hover {
+    color: var(--main-branding-color);
+}
+
+/* ---------------------- Home page*/
 
 h1 {
     font-size: 90px;
-    margin-top: 80px;
 }
 
 h2 {
-    margin: 40px;
+    margin: 1em;
+
 }
 
 h3 {
@@ -57,29 +82,13 @@ img {
     border-radius: 10px;
 }
 
-a {
-    color: white;
-}
-
-a:hover {
-    color: var(--main-branding-color);
-    transition: 0.5s;
-}
-
-.navbar-nav .nav-link.active,
-.navbar-nav .show>.nav-link {
-    color: var(--main-branding-color);
-}
-
-.nav-link:hover {
-    color: var(--main-branding-color);
+.title {
+    position: absolute;
+    font-weight: bold;
 }
 
 .hero {
-    padding: 170px ;
-    margin: 50px 0;
-    font-weight: bold;
-    position: relative;
+    height: 100vh;
 }
 
 .hero::before{
@@ -92,6 +101,10 @@ a:hover {
     right: 0px;
     bottom: 0px;
     left: 0px;
+}
+
+.hero .row {
+    padding-top: 30%;
 }
 
 .button-main {
@@ -113,6 +126,8 @@ a:hover {
     border: 2px solid var(--main-branding-color);
     padding: 9px 151px;
 }
+
+/* ---------------------- About page*/
 
 .presentation h1 {
     margin-top: 150px;
@@ -136,10 +151,8 @@ a:hover {
     margin: 0 auto;
 }
 
-.work-tittle {
-    margin-bottom: 50px;
+/* ---------------------- Work Page*/
 
-}
 .cards {
     display: flex;
     grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
@@ -165,6 +178,8 @@ a:hover {
 .card p {
     margin: 10px;
 }
+
+/* ---------------------- Contact Page*/
 
 .contacts {
     
@@ -198,6 +213,9 @@ a:hover {
     border-radius: 10px;
     padding: 10px 20px;
 }
+
+
+/* ---------------------- Media Queries*/
 
 @media (max-width: 900px) {
 
