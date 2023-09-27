@@ -75,7 +75,7 @@ h5 {
 
 footer {
     font-size: 15px;
-    margin-top: 120px;
+    margin-top: 50px;
 }
 
 img {
@@ -204,6 +204,14 @@ img {
 }
 
 /* ---------------------- Contact Page*/
+
+#contact-tittle {
+    margin-top: 15%;
+}
+
+#contact-info {
+    height: 60vh;
+}
 
 .contacts {
     
