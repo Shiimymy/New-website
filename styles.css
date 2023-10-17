@@ -229,6 +229,29 @@ img {
     border: 1px solid var(--main-branding-color);
 }
 
+.repo-list {
+    display: block;
+    clear: both;
+    width: 100%;
+}
+
+.repo-list ul {
+    font-size: 1.2em;
+}
+
+.repo-list ul li {
+    display: block;
+    padding: 5px;
+}
+
+.repo-list ul li a {
+    font-weight: bold;
+    padding: 6px 9px;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid;
+}
+
 @keyframes clignoter {
     0% {
         opacity: 1;
