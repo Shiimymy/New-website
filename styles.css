@@ -315,6 +315,21 @@ img {
     padding: 10px 20px;
 }
 
+#contact-info .center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+#contact-info input, #contact-info textarea {
+    border-color: var(--main-text-color);
+    animation: none;
+    margin-bottom: 10px;
+    background: rgba(0, 0, 0, 0.2);
+    color: var(--main-text-color);
+    padding: 5px 10px;
+    font-size: 20px;
+}
 
 /* ---------------------- Media Queries*/
 
