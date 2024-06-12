@@ -168,7 +168,18 @@ img {
 .card {
     background-color: transparent;
     padding: 0.5em;
-    border: none
+    border: none;
+    margin: auto 0;
+}
+.card-title, .card img {
+    width: 600px;
+    display: block;
+    margin: auto;
+}
+
+.card img {
+    height: 600px;
+    margin-top: 1em;
 }
 
 .btn-secondary {
@@ -333,6 +344,29 @@ img {
 
 /* ---------------------- Media Queries*/
 
+
+@media (max-width: 1300px) {
+    
+    .card-title, .card img {
+        width: 500px;
+        } 
+
+    .card img {
+            height: 500px;    
+        }
+}
+
+
+@media (max-width: 1100px) {
+
+    .card-title, .card img {
+        width: 400px;
+    }
+    .card img {
+        height: 400px;
+    }
+}
+
 @media (max-width: 900px) {
 
     h1 {
@@ -404,5 +438,43 @@ img {
 
     .social-links a:hover {
         padding: 10px 5px;
+    }
+
+    .card-title, .card img {
+        width: 350px;
+    }
+
+    .card img {
+        height: 350px;
+    }
+}
+
+@media (max-width: 768px) {
+    .card img, .card-title {
+        width: 500px;
+    }
+
+    .card img {
+        height: 500px;
+    }
+}
+
+@media (max-width: 580px) {
+    .card img, .card-title {
+        width: 400px;
+    }
+
+    .card img {
+        height: 400px;
+    }
+}
+
+@media (max-width: 450px) {
+    .card img, .card-title {
+        width: 325px;
+    }
+
+    .card img {
+        height: 325px;
     }
 }
