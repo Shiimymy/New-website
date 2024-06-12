@@ -168,7 +168,7 @@ img {
 .card {
     background-color: transparent;
     padding: 0.5em;
-    border: 1px solid var(--main-text-color);
+    border: none
 }
 
 .btn-secondary {
@@ -189,12 +189,21 @@ img {
     transition: 0.5s;
     border-color: var(--main-branding-color);
 }
-
+/* ----------------- Git Form */
 .center-form {
-    margin-top: 2em;
+    margin-top: 3em;
 }
 
+.center-form h2 {
+    font-size: 2em;
+    margin: 40px;
+    padding: 20px;
+    text-transform: uppercase;
+    border: solid white 1px;
+    border-radius: 10px;
+}
 .center-form input {
+    margin-bottom: 1pc;
     color: var(--main-text-color);
     font-size: 20px;
     background: rgba(0, 0, 0, 0.2);
@@ -212,10 +221,19 @@ img {
     border: 1px solid var(--main-branding-color);
 }
 
+#gh-user-data h6 {
+    font-size: 1.8em;
+}
+
 .repo-list {
     display: block;
     clear: both;
     width: 100%;
+}
+
+.repo-list p {
+    font-size: 1.5em;
+    text-decoration: underline;
 }
 
 .repo-list ul {
@@ -223,8 +241,8 @@ img {
 }
 
 .repo-list ul li {
-    display: block;
-    padding: 5px;
+    display: inline;
+    margin: 1px;
 }
 
 .repo-list ul li a {
@@ -232,7 +250,6 @@ img {
     padding: 6px 9px;
     display: inline-block;
     text-decoration: none;
-    border: 1px solid;
 }
 
 @keyframes clignoter {
