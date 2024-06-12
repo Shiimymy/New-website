@@ -150,23 +150,6 @@ img {
     background-color: var(--main-branding-color);
 }
 
-.progress {
-    height: 25px;
-    position: relative;
-    margin-bottom: 4px;
-    --bs-progress-bg: rgba(0, 0, 0, 0.351);
-    --bs-progress-bar-color: var(--main-text-color);
-}
-
-.progress-type {
-    color: var(--main-text-color);
-    left: 0px;
-    font-size: 15px;
-    font-weight: 500;
-    padding: 3px 30px 2px 10px;
-    position:absolute;
-}
-
 .carousel {
     max-width: 70%;
     margin: 0 auto;
