@@ -105,7 +105,7 @@ img {
 }
 
 .hero .row {
-    padding-top: 30%;
+    padding-top: 27%;
 }
 
 .button-main {
@@ -201,7 +201,7 @@ img {
     transition: 0.5s;
     border-color: var(--main-branding-color);
 }
-/* ----------------- Git Form */
+/* ----------- Git Form */
 .center-form {
     margin-top: 3em;
 }
