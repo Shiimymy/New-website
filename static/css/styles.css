@@ -96,7 +96,7 @@ img {
 
 .hero::before{
     content: "";
-    background-image: url(images/ireland.jpeg);
+    background-image: url(../images/ireland.jpeg);
     position: absolute;
     background-size: cover;
     opacity: 60%;
